@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Exercício</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Formulário com Validação</h1>
+    <p>Atenção! O valor do Campo A deve ser menor que o valor do campo B.</p>
+    <form id="form">
+        <label for="NumA">Campo A</label>
+        <input type="number" id="NumA" required>
+        <P class="error-message">O valor deste campo precisa ser menor que o do 'Campo B'!</P>
+
+        <label for="NumB">Campo B</label>
+        <input type="number" id="NumB" required>
+
+        <button type="submit">Enviar</button>
+    </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html> 

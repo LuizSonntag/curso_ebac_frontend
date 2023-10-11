@@ -1,0 +1,72 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 1rem;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #1105ed 0%, #4088e7 100%);
+}
+
+h1,
+p{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin: 0 auto;
+    width: 500px;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #060303;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.container{
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+form button{
+    background-color: #145dbc;
+    font-size: 14px;
+    width: 60%;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px auto;
+    height: 30px;
+}
+
+form button:hover,
+#Feedback button:hover{
+    background-color: #5199f8;
+}
+
+.error-message{
+    background-color: red;
+    padding: 8px;
+    color: white;
+    border-radius: 10px;
+    display: none;
+}
