@@ -1,0 +1,31 @@
+h1,
+h2{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 0 auto;
+}
+
+form input{
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    border-color: black;
+    border-width: 3px;
+}
+
+form button{
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    background-color: green;
+    border: none solid;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    cursor: pointer;
+}
